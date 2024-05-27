@@ -14,6 +14,9 @@ TIMEOUT=30
 # the following number of time (set to 0 to instantly stop)
 LIMIT_CONFIRMS=3
 
+# Loop through the North American FM freqency band
+# starting with the analog TV 6 FM channels.
+# Not sure if any of those have RDS but I figured might as well
 for f in `seq 87.5 0.2 107.9`;
 do
 
