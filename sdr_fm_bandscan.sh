@@ -10,7 +10,7 @@ RDSCMD="redsea"
 #LOGCMD="echo \"%date%,%freq%,%picode%\" >> fm_bandscan.log"
 # Wait this long before moving to the next frequency
 TIMEOUT=30
-# Will stop checking after the PID is found and confirmed
+# Will stop checking after the PI Code is found and confirmed
 # the following number of time (set to 0 to instantly stop)
 LIMIT_CONFIRMS=3
 
